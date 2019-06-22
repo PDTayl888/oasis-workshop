@@ -1,0 +1,11 @@
+ 
+  <hr>
+      <li  
+      *ngFor="let video of videoInputs; let i = index"
+      [class.glow]="selected === i" 
+      (click)="highlight(i,video)"
+     >
+<dashboard-single-video [video]="video"></dashboard-single-video>
+</li>
+
+

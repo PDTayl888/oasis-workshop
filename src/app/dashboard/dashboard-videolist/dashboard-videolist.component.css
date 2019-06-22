@@ -1,0 +1,11 @@
+.glow {
+    border: 12px dashed lime;
+    background-color: purple;
+    border-radius: 22px;
+    font-size: 18px;
+    background-position: absolute;
+}
+
+:host-context {
+place-items: center;
+}

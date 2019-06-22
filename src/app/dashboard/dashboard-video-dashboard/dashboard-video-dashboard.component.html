@@ -1,0 +1,7 @@
+
+<dashboard-videolist 
+(videoSelected)="OnVideoSelected($event)" 
+[videoInputs]="videoListData | async"></dashboard-videolist>
+
+<dashboard-video-player [video]="videoToDisplay"></dashboard-video-player>
+<dashboard-stat-filters></dashboard-stat-filters>
